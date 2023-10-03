@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from input</title>
+</head>
+<body>
+    <h2>form input</h2>
+    <form action="#" method="post" name="form-input" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Identias</legend>   
+        <label for="NIM">NIM    :</label><
+        <input type="text" name="txtnim" id="nim" placeholder="Masukin NIM anda"> <br>
+
+        <label for="Nama">Nama  :</label>
+        <input type="text" name="txtNama" id="Nama" placeholder="Masukin Nama anda"> <br>
+
+        <label for="jk">NIM :</label>
+        <input type="radio" name="rdjk" id="fdw" value="p"><label for="fdw">peria</label>
+        <input type="radio" name="rdjk" id="fdi" value="w"><label for="fdi">wanita</label>
+        <br>
+
+        <label for="jurusan">jurusan    :</label>
+        <select name="optionjurudsan" id="jurusansan">
+            <option value="">pilih...</option>
+            <option value="S1 ILKOM">S1 ILKOM</option>
+            <option value="S1 TI">S1 TI</option>
+            <option value="S1 PTI">S1 PTI</option>
+        </select>
+        <br>
+
+        <label>Hoby :</label>
+        <input type="checkbox" name="chkhoby[]" value="Komputer">Komputer
+        <input type="checkbox" name="chkhoby[]" value="Musik">Musik
+        <input type="checkbox" name="chkhoby[]" value="olahraga">olahraga
+        <br>
+
+        <label >Alamat  :</label>
+        <textarea name="txtalamat" cols="30" rows="10" placeholder="Alamat Anda"></textarea>
+        <br>
+
+        <label for="">Tanggal Lahir :</label>
+        <input type="date" name="dttgl_lahir" >
+        <br>
+
+        <input type="submit" value="Simpan" name="btnsimpan">
+        <input type="submit" value="Reset" name="btnreset">
+
+
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>
