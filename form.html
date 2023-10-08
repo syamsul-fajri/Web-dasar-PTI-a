@@ -6,49 +6,55 @@
     <title>from input</title>
 </head>
 <body>
-    <h2>form input</h2>
-    <form action="#" method="post" name="form-input" enctype="multipart/form-data">
+    <h2>Form Registrasi</h2>
+    <form action="#" method="post" name="Form Registrasi" enctype="multipart/form-data">
         <fieldset>
-            <legend>Identias</legend>   
-        <label for="NIM">NIM    :</label><
-        <input type="text" name="txtnim" id="nim" placeholder="Masukin NIM anda"> <br>
+            <legend>Biodata</legend>   
+        <label for="Nama">Nama:</label>
+        <input type="text" name="txtnim" id="Nama"> <br>
 
-        <label for="Nama">Nama  :</label>
-        <input type="text" name="txtNama" id="Nama" placeholder="Masukin Nama anda"> <br>
-
-        <label for="jk">NIM :</label>
-        <input type="radio" name="rdjk" id="fdw" value="p"><label for="fdw">peria</label>
-        <input type="radio" name="rdjk" id="fdi" value="w"><label for="fdi">wanita</label>
-        <br>
-
-        <label for="jurusan">jurusan    :</label>
-        <select name="optionjurudsan" id="jurusansan">
-            <option value="">pilih...</option>
-            <option value="S1 ILKOM">S1 ILKOM</option>
-            <option value="S1 TI">S1 TI</option>
-            <option value="S1 PTI">S1 PTI</option>
-        </select>
-        <br>
-
-        <label>Hoby :</label>
-        <input type="checkbox" name="chkhoby[]" value="Komputer">Komputer
-        <input type="checkbox" name="chkhoby[]" value="Musik">Musik
-        <input type="checkbox" name="chkhoby[]" value="olahraga">olahraga
-        <br>
-
-        <label >Alamat  :</label>
-        <textarea name="txtalamat" cols="30" rows="10" placeholder="Alamat Anda"></textarea>
-        <br>
+        <label for="NIM">NIM:</label>
+        <input type="text" name="txtNIM" id="NIM" > <br>
 
         <label for="">Tanggal Lahir :</label>
-        <input type="date" name="dttgl_lahir" >
+        <input type="week" id="week" name="week" >
+        <br>
+        <label ><p>Alamat  :</p></label>
+        <textarea name="message" style="width:100px; height: 40px;"></textarea>
         <br>
 
-        <input type="submit" value="Simpan" name="btnsimpan">
-        <input type="submit" value="Reset" name="btnreset">
-
-
-
+        <label for="jk">Jenis Kelamin:</label>
+        <input type="radio" name="rdjk" id="fdw" value="p"><label for="fdw">Laki-laki</label>
+        <input type="radio" name="rdjk" id="fdi" value="w"><label for="fdi">Perempuan</label>
+        <br>
+    </fieldset>
+        <fieldset>
+            <legend>User Account</legend>
+            <label for="Username">Username</label>
+            <input type="text" name="txtUsername" id="Username"><br>
+            <label for="Email">Email</label>
+            <input type="text" name="txtEmail" id="Email"><br>
+            <label for="">Password</label>
+            <input type="text" name="txtPassword" id="Password"><br>
+            <label for="Ulangi Password">Ulangi Password</label>
+            <input type="text" name="txtUlangi Password" id="Ulangi Password">
+            </select>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Resolusi Tahun Ini</legend>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Menguasi HTML</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Paham CSS</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Matering PHP</label>
+            </select>
+            <br>
+        </fieldset>  
+        <br><br>
+        <input type="submit" value="Kirim Data" name="btnsimpan">
+       
     </fieldset>
     </form>
     
