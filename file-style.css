@@ -1,5 +1,7 @@
 .hijau {
     color: rgb(0, 16, 247);
+    font-style: oblique;
+    background-color: antiquewhite;
 }
 .hijau1 {
     color: rgb(240, 11, 11);
@@ -39,5 +41,9 @@
 }
 .bacground1 {
     background-color: brown;
+    color: aliceblue;
+}
+.bacground2 {
+    background-color: rgb(17, 127, 146);
     color: aliceblue;
 }
