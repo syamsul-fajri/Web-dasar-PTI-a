@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>from input</title>
+    <link rel="stylesheet" href="file-style.css">
 </head>
 <body>
     <h1>Form Registrasi</h1>
     <form action="#" method="post" name="Form Registrasi" enctype="multipart/form-data">      
-        <fieldset>
-            <legend>Biodata</legend>  
+        <fieldset class="hijau2">
+            <legend class="hijau">Biodata</legend>  
                 <table>      
                  <tr>
-                     <td>Nama:</td>
-                     <td><input type="text" name="txtnim" id="Nama"></td>
+                     <td class="miring">Nama:</td>
+                     <td><input type="text" name="txtnim" id="Nama" ></td>
                  </tr>
                  <tr>
-                    <td><label for="NIM">NIM:</label></td>
+                    <td><label for="NIM" class="hijau1">NIM:</label></td>
                     <td><input type="text" name="txtNIM" id="NIM" > </td>
                  </tr> 
                 <tr>
-                    <td><label for="">Tanggal Lahir:</label></td>
+                    <td><label for="" class="h3">Tanggal Lahir:</label></td>
                     <td><select name="optiontanggal" id="Tanggal" style="width: 40px; height: 20px;">
                     <option>01</option>
                     <option value="">02</option>
@@ -223,17 +224,17 @@
         
       
                  <tr>
-                    <td>Alamat </td>
-                    <td><textarea name="message" style="width:200px; height: 40px;"></textarea></td>
+                    <td class="hijau3">Alamat </td>
+                    <td ><textarea name="message" style="width:200px; height: 40px;" class="hijau3"></textarea></td>
                 </tr>
                 <tr>
-                    <td><label for="jk">Jenis Kelamin</label></td>
+                    <td class="h2"><label for="jk">Jenis Kelamin</label></td>
                     <td><input type="radio" name="rdjk" id="fdw" value="p"><label for="fdw">Laki-laki</label>
                     <input type="radio" name="rdjk" id="fdi" value="w"><label for="fdi">Perempuan</label></td>
                 </tr>
          </table>
         </fieldset>
-        <fieldset>
+        <fieldset class="hijau4">
             <legend>User Account</legend>
             <table>
                 <tr>
@@ -255,7 +256,7 @@
             </select>
         </table>           
         </fieldset>
-        <fieldset>
+        <fieldset class="hijau5">
             <table>
             <legend>Resolusi Tahun Ini</legend>
             <!-- <tr> -->

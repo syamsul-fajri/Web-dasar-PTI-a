@@ -1,0 +1,39 @@
+.hijau {
+    color: rgb(0, 16, 247);
+}
+.hijau1 {
+    color: rgb(240, 11, 11);
+}
+.miring {
+    font-style: italic;
+    font-size: xx-large;
+}
+.hijau2 {
+    background-color: rgb(172, 164, 99);
+    font-family: 'Times New Roman', Times, serif;
+}
+.h2 {
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+}
+.h3 {
+    font-size: 20px;
+    color: rgb(0, 255, 13);
+}
+.P3 {
+    color: rgb(208, 255, 0);
+}
+.hijau3 {
+    background-color: rgb(255, 225, 0);
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.hijau4 {
+    background-color: rgb(2, 183, 228);
+    font-family: 'Times New Roman', Times, serif;
+}
+.hijau5 {
+    background-color: rgb(228, 175, 2);
+    font-family: 'Times New Roman', Times, serif;
+}
