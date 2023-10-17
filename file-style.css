@@ -27,7 +27,7 @@
 .hijau3 {
     background-color: rgb(255, 225, 0);
     font-family: 'Times New Roman', Times, serif;
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 .hijau4 {
     background-color: rgb(2, 183, 228);
@@ -36,4 +36,8 @@
 .hijau5 {
     background-color: rgb(228, 175, 2);
     font-family: 'Times New Roman', Times, serif;
+}
+.bacground1 {
+    background-color: brown;
+    color: aliceblue;
 }
